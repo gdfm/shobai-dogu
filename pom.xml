@@ -4,7 +4,7 @@
 
   <groupId>com.yahoo.research.bcn</groupId>
   <artifactId>shobai-dogu</artifactId>
-  <version>0.1</version>
+  <version>0.3</version>
   <packaging>jar</packaging>
 
   <name>shobai-dogu</name>
