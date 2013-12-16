@@ -2,12 +2,14 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.gihub.gdfm</groupId>
     <artifactId>shobai-dogu</artifactId>
     <version>0.4</version>
-    <packaging>jar</packaging>
-    <name>shobai-dogu</name>
+
+    <name>Shobai Dogu</name>
     <description>Tools of the trade</description>
     <url>https://github.com/gdfm/shobai-dogu</url>
+    <packaging>jar</packaging>
 
     <licenses>
         <license>
@@ -92,5 +94,10 @@
             </plugin>
         </plugins>
     </build>
-    <groupId>com.gihub.gdfm</groupId>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
 </project>
