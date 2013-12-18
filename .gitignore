@@ -1,7 +1,9 @@
 # Maven
-target/
+target
 
 # Eclipse
 .classpath
 .project
-.settings/
+.settings
+
+RELEASE-HOWTO.txt
