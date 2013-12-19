@@ -6,7 +6,7 @@
     <url>https://github.com/gdfm/shobai-dogu</url>
     <packaging>jar</packaging>
 
-    <groupId>com.gihub.gdfm</groupId>
+    <groupId>com.github.gdfm</groupId>
     <artifactId>shobai-dogu</artifactId>
     <version>0.5-SNAPSHOT</version>
 
