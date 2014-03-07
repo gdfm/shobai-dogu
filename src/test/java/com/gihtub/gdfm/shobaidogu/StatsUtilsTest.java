@@ -1,4 +1,4 @@
-package com.gihub.gdfm.shobaidogu;
+package com.gihtub.gdfm.shobaidogu;
 
 /*
  * #%L
@@ -27,7 +27,7 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import com.gihub.gdfm.shobaidogu.StatsUtils;
+import com.gihtub.gdfm.shobaidogu.StatsUtils;
 
 public class StatsUtilsTest {
 
