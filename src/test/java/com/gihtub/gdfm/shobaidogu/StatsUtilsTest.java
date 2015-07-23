@@ -27,7 +27,7 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import com.gihtub.gdfm.shobaidogu.StatsUtils;
+import com.github.gdfm.shobaidogu.StatsUtils;
 
 public class StatsUtilsTest {
 

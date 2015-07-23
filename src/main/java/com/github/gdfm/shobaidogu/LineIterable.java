@@ -1,4 +1,4 @@
-package com.gihtub.gdfm.shobaidogu;
+package com.github.gdfm.shobaidogu;
 
 /*
  * #%L
