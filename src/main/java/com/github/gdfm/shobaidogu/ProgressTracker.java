@@ -31,8 +31,10 @@ import org.slf4j.LoggerFactory;
 public class ProgressTracker {
   private static final Logger LOG = LoggerFactory.getLogger(ProgressTracker.class);
   private long tick;
-  private int count, prevCount, totalIterations;
-  private int period;
+  private long count;
+  private long prevCount;
+  private long totalIterations;
+  private long period;
 
   /**
    * Builds a progress tracker that gives an estimate time of arrival for the computation, given the current speed.
@@ -40,7 +42,7 @@ public class ProgressTracker {
    * @param estimatedIterations
    *          the expected number of iterations to run.
    */
-  public ProgressTracker(int estimatedIterations, int reportPeriod) {
+  public ProgressTracker(long estimatedIterations, long reportPeriod) {
     tick = System.currentTimeMillis();
     count = prevCount = 0;
     totalIterations = estimatedIterations;
